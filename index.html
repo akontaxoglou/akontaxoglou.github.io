@@ -1,0 +1,448 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="el">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1Z2WEL9HHK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1Z2WEL9HHK');
+</script>
+
+<link rel="shortcut icon" href="A.ico" type="image/x-icon"/>
+<TITLE>Tasos' Page</TITLE>
+<META name="author" content="Template Creator: Julian Praest - joolean.io">
+<META name="editedby" content="Template adjustment: Tasos - akontaxoglou.gitlab.io">
+<META name="copyright" content="Creative Commons BY-NC 4.0">
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+
+<style>
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i|Raleway:300,300i,600,600i';
+
+body {
+    background-image: linear-gradient(-34deg, #551111 7%, #551111 47%, #551111 100%);
+	border-radius: 0px;
+	overflow: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #3C3C3C ; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #3C3C3C ; /* Gecko Browsers */
+}
+
+section {
+    display: block;
+    position: absolute;
+}
+
+#information {
+    left: 25%;
+	width: 100%;
+    top: 10%;
+	width: 50%;
+    height: 80%;
+	word-wrap: normal;
+}
+
+#coming {
+    top: 30%;
+    background-image: none;
+	visibility: hidden;
+}
+
+#footer {
+	left: 0;
+	bottom: 2%;
+	width: 100%;
+	text-align: center;
+   
+   	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 100 !important;
+	color: #FFF3F1 ;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+}
+
+#photo {
+	background-image: url("photo.png");
+    background-size:contain;
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	background-repeat: no-repeat;
+    left: -120px;
+    top: -150px;
+}
+
+#frameBorder {
+    border: 10px white solid;
+	padding: 10px;
+	left: 10px;
+    top: 10px;
+	right: 10px;
+	bottom: 10px;
+	position: absolute;
+}
+
+#sm_links {
+    right: 5%;
+    top: 5%;
+}
+
+.sm_button {
+    margin-top: 10px;
+}
+
+.buttonContainer {
+	max-width: 100%;
+	margin: 0 auto;
+	width: 100%;
+	transition: margin .475s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.buttons{
+	display: inline;
+}
+
+.buttons li {
+  float: left;
+
+}
+
+.buttons li a {
+  margin: 180px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom:40px;
+  display: block;
+  text-decoration: none;
+}
+
+	
+.spriteButton {
+	align: left;
+    margin-left: -6px;
+	display:inline-block;
+    background-position: top;
+    height: 81px;
+    width: 180px;
+    position: absolute;
+	cursor:pointer;
+          
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+    -moz-animation-name: pageLoadButton;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-delay: 0.0s;
+
+    -webkit-animation-name: pageLoadButton;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-delay: 0.0s;
+
+    animation-name: pageLoadButton;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1.5s;
+    animation-delay: 0.0s;
+}
+
+.spriteButton:hover {
+    background-position: bottom;
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+    font-weight: 300!important;
+	letter-spacing: -0.02px;
+	color: #FFDB58 ;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.bigLinks {	
+	font-size: 14px;
+}
+
+.smallLinks {	
+	font-size: 12px;
+}
+
+img { border: 0; }
+
+.delayedAppearance {           
+    -moz-animation-name: pageLoad;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-delay: 0s;
+
+    -webkit-animation-name: pageLoad;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-delay: 0s;
+
+    animation-name: pageLoad;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: 600 !important;
+	color: #FFFFFF;
+	letter-spacing: 1.9px;
+	margin-top: -20px;  
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+    font-weight: 300!important;
+	color: #FFFFFF;
+	letter-spacing: -0.02px; 
+}
+
+h3 {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 100 !important;
+	color: #FFF3F1 ;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+hr {
+    background-color: white;
+    display: block;
+    margin: -25px 00px 50px ;
+    height: 3px;
+    width: 160px;
+    border: none;        
+}
+
+#resumeButton
+{    
+	background-image: url("resumeButtonSprite.png");
+}
+
+#publicationsButton {
+    background-image: url("publicationsButtonSprite.png");
+}
+
+#currentResearchButton {
+    background-image: url("currentResearchButtonSprite.png");
+}
+
+@-moz-keyframes pageLoad {
+    0% {
+        -moz-transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateX(0);
+        opacity: 100;
+    }
+}
+@-webkit-keyframes pageLoad {
+    0% {
+        -webkit-transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        opacity: 100;
+    }
+}
+@keyframes pageLoad {
+    0% {
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 100;
+    }
+}
+                 
+@-moz-keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+@-webkit-keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+@keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+@media screen and (max-width: 812px) {
+	h3 {
+		font-size: 26px;
+	}
+	.buttons li a {
+	  margin: 60px;
+	  margin-top: 0;
+	  margin-left: 0;
+	  margin-bottom: 40px;
+	  display: block;
+	  text-decoration: none;
+	}
+	
+	.spriteButton {
+		width: 68px;
+	}
+	#resumeButton
+	{    
+		background-image: url("resumeButtonSpriteSmall.png");
+	}
+	
+	#publicationsButton {
+		background-image: url("publicationsButtonSpriteSmall.png");
+	}
+
+	#currentResearchButton {
+		background-image: url("currentResearchButtonSpriteSmall.png");
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	h3 {
+		font-size: 20px;
+	}	
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+	h3 {
+		font-size: 26px;
+	}	
+
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="photo"></div>
+
+<div id="frameBorder"></div>
+
+<section id="information">
+  <h2 class="delayedAppearance">An engineer based in Tokyo</h2>
+  <h1 class="delayedAppearance">Hi, I'm Tasos</h1>
+  <hr class="delayedAppearance">
+  <h3 class="delayedAppearance">
+	Member of Intelligent Space Systems Laboratory @UTokyo.
+	<br>
+	Currently, I am pursuing a PhD degree in Astronautics.
+	<br>
+	I enjoy movies, exercising, mountain hiking and scrambling.
+	<br>
+  </h3>
+  
+	<section id="buttonContainer">
+		<ul class="buttons">
+			<li>
+				<a href="cv.html" rel="noopener"><i class="spriteButton" id="resumeButton" role="presentation"></i></a>
+			</li>  
+			<li>
+				<a href="publications.html" rel="noopener"><i class="spriteButton" id="publicationsButton" role="presentation"></i></a>
+			</li>	
+			<li>
+				<a href="currentResearch.html" rel="noopener"><i class="spriteButton" id="currentResearchButton" role="presentation"></i></a>
+			</li>	
+		</ul>
+	</section>
+
+	<section id="coming">		
+		<div>
+		</div>	
+	</section>
+</section>
+
+
+
+<section class="delayedAppearance" id="footer">
+	<p>Built and maintained by <a class="smallLinks" href="https://akontaxoglou.gitlab.io" rel="noopener">akontaxoglou</a>. Theme template by <a class="smallLinks" href="https://joolean.io" rel="noopener">Julian Praest</a>.</p>
+</section>
+
+<section id="sm_links">
+	<div class="sm_button">
+		<a  href="contact.html" rel="noopener">
+		<img  alt="contact" src="contact.png" width="60" height="60">
+		</a>
+	</div>
+	<div class="sm_button">
+			<a href="https://www.linkedin.com/in/akontaxoglou/" rel="noopener">
+			<img  alt="my linkedin profile" src="in.png" width="60" height="60">
+			</a>
+	</div>
+	<div class="sm_button">
+			<a href="https://gitlab.com/a.kontaxoglou" rel="noopener">
+			<img  alt="my gitlab profile" src="gitlab.png" width="60" height="60">
+			</a>
+	</div>
+	<div class="sm_button">
+			<a href="https://www.researchgate.net/profile/Anastasios_Kontaxoglou3" rel="noopener">
+			<img  alt="my researchgate profile" src="rg.png" width="60" height="60">
+			</a>
+	</div>
+	<div class="sm_button">
+		<a  href="https://www.space.t.u-tokyo.ac.jp/nlab/index_e.html" rel="noopener">
+		<img  alt="ISSL" src="issl.png" width="60" height="60">
+		</a>
+	</div>
+</section>
+
+</body>
+</html>
