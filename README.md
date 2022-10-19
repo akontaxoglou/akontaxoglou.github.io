@@ -1,7 +1,7 @@
-# ELENA's PROFILE 
-### My personal page with cv and conact information
+# TASOS' PROFILE 
+### My personal page with cv and contact information
 
-[![FOXELAS](https://github.com/foxelas/foxelas.github.io/raw/master/preview.png)](https://foxelas.github.io/)
+[![AKONTAXOGLOU](https://github.com/akontaxoglou/akontaxoglou.github.io/blob/master/preview.png)](https://akontaxoglou.github.io/)
 
 
 ### Note 
